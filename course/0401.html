@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    學校總床位數
+    <div style="width: 100%; height: 90%;">
+        <canvas id="myChart"></canvas>
+    </div>
+    <script>
+    fetch('./0401/111_land.json')
+        .then(response => response.json())
+        .then(data => {
+            // 計算每個學校的總床位數
+            var schoolsData = {};
+            data.forEach(entry => {
+                var schoolName = entry["學校名稱"];
+                var totalBeds = entry["學生宿舍床位數(床)"];
+                if (schoolsData[schoolName]) {
+                    schoolsData[schoolName] += totalBeds;
+                } else {
+                    schoolsData[schoolName] = totalBeds;
+                }
+            });
+
+            // 提取學校名稱和總床位數
+            var labels = Object.keys(schoolsData);
+            var data = Object.values(schoolsData);
+
+            // 繪製圖表
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: '總床位數',
+                        data: data,
+                        backgroundColor: 'rgba(54, 162, 235, 1)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        barPercentage: 1.2,
+                        barThickness: 6,
+                        maxBarThickness: 12,
+                        minBarLength: 8
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            ticks: {
+                                autoSkip: false,
+                            },
+                        },
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching JSON file:', error);
+        });
+    </script>
+    列管公廁(不分男女)圓餅圖
+    <div>
+        <canvas id="chart"></canvas>
+    </div>
+    <script>
+    fetch("./0401/stat_p_90.json")
+        .then(response => response.json())
+        .then(data => {
+            // 處理 JSON 資料
+            const items = data.records;
+
+            const labels = [];
+            const values = [];
+
+            items.forEach(item => {
+                if (item.itemname === "列管公廁個數/不分男女") {
+                    if (item.year === "110") {
+                        if (item.category !== "總計") {
+                            labels.push(item.category);
+                            values.push(item.itemvalue);
+                        }
+                    }
+                }
+            });
+
+            // 使用 Chart.js API 創建圖表
+            const ctx = document.getElementById("chart").getContext("2d");
+            const chart = new Chart(ctx, {
+                type: "pie",
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: values
+                    }]
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

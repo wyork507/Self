@@ -1,0 +1,3274 @@
+{
+    "fields": [
+        {
+            "id": "itemname",
+            "type": "text",
+            "info": {
+                "label": "統計項名稱"
+            }
+        },
+        {
+            "id": "category",
+            "type": "text",
+            "info": {
+                "label": "類別"
+            }
+        },
+        {
+            "id": "year",
+            "type": "text",
+            "info": {
+                "label": "年度"
+            }
+        },
+        {
+            "id": "itemunit",
+            "type": "text",
+            "info": {
+                "label": "單位"
+            }
+        },
+        {
+            "id": "itemvalue",
+            "type": "text",
+            "info": {
+                "label": "數值"
+            }
+        }
+    ],
+    "resource_id": "0de9219c-698b-418c-b59c-061179ebf6f6",
+    "__extras": {
+        "api_key": "e8dd42e6-9b8b-43f8-991e-b3dee723a52d"
+    },
+    "include_total": true,
+    "total": "460",
+    "resource_format": "object",
+    "limit": "1000",
+    "offset": "0",
+    "_links": {
+        "start": "\/api\/v2\/stat_p_90?api_key=e8dd42e6-9b8b-43f8-991e-b3dee723a52d&limit=1000&format=JSON&sort=ImportDate desc",
+        "next": "\/api\/v2\/stat_p_90?api_key=e8dd42e6-9b8b-43f8-991e-b3dee723a52d&limit=1000&format=JSON&sort=ImportDate desc&offset=1000"
+    },
+    "records": [
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "連江縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "146"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "金門縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "656"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "269"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "311"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "基隆市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "477"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "澎湖縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "163"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "花蓮縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1223"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "373"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "屏東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1980"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "964"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "雲林縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "614"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "南投縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "272"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "彰化縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "5593"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "苗栗縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1297"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "349"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "宜蘭縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "428"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "高雄市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "4362"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺南市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2446"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺中市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2553"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "桃園市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1093"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "5578"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "3683"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "總計",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "34830"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "連江縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "100"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "金門縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "314"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1109"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1402"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "基隆市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1193"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "澎湖縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "610"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "花蓮縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1531"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "794"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "屏東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1106"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1111"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "雲林縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1318"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "南投縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "758"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "彰化縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1715"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "苗栗縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1805"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2009"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "宜蘭縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1682"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "高雄市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "7183"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺南市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "8168"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺中市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "10230"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "桃園市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "6752"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "14457"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "5284"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "總計",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "70631"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "連江縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "132"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "金門縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "414"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1423"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1669"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "基隆市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1728"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "澎湖縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "792"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "花蓮縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2111"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1127"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "屏東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1652"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2343"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "雲林縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1831"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "南投縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1967"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "彰化縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2551"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "苗栗縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2309"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2638"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "宜蘭縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2282"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "高雄市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "9132"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺南市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "11931"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺中市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "13370"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "桃園市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "8574"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "17109"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "7439"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "總計",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "94524"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "連江縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "378"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "金門縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1384"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2801"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "3382"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "基隆市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "3398"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "澎湖縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "1565"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "花蓮縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "4865"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2294"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "屏東縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "4738"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "4418"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "雲林縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "3763"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "南投縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "2997"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "彰化縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "9859"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "苗栗縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "5411"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "4996"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "宜蘭縣",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "4392"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "高雄市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "20677"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺南市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "22545"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺中市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "26153"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "桃園市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "16419"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "37144"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新北市",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "16406"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "總計",
+            "year": "110",
+            "itemunit": "個",
+            "itemvalue": "199985"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "連江縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "34"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "金門縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "70"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "185"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "191"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "基隆市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "452"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "澎湖縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "127"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "花蓮縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1201"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "418"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "屏東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "598"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "531"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "雲林縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "258"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "南投縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "180"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "彰化縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "817"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "苗栗縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "438"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "229"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "宜蘭縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "179"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "高雄市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1438"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺南市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1604"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺中市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "749"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "桃園市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "920"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "285"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1746"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "總計",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "12650"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "連江縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "183"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "金門縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "573"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1123"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1365"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "基隆市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1156"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "澎湖縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "719"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "花蓮縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1499"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2562"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "屏東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1951"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "3050"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "雲林縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1001"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "南投縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2029"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "彰化縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2763"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "苗栗縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2040"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2027"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "宜蘭縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1469"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "高雄市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "7455"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺南市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "8062"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺中市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "9523"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "桃園市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "6610"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "15215"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "7329"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "總計",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "79704"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "連江縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "245"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "金門縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "783"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1443"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1612"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "基隆市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1719"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "澎湖縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "839"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "花蓮縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2092"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "3462"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "屏東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2816"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "3963"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "雲林縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1712"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "南投縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2820"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "彰化縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "4147"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "苗栗縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2669"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2834"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "宜蘭縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2132"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "高雄市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "9613"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺南市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "12430"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺中市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "14922"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "桃園市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "8795"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "18022"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "11883"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "總計",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "110953"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "連江縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "462"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "金門縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1426"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2751"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "3168"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "基隆市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "3327"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "澎湖縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "1685"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "花蓮縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "4792"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "6442"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "屏東縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "5365"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "7544"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "雲林縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "2971"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "南投縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "5029"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "彰化縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "7727"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "苗栗縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "5147"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "5090"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "宜蘭縣",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "3780"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "高雄市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "18506"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺南市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "22096"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺中市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "25194"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "桃園市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "16325"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "33522"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新北市",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "20958"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "總計",
+            "year": "109",
+            "itemunit": "個",
+            "itemvalue": "203307"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "連江縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "36"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "金門縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "70"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "170"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "199"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "基隆市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "236"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "澎湖縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "128"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "花蓮縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "829"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "409"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "屏東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "737"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "535"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "雲林縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "560"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "南投縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "195"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "彰化縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "504"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "苗栗縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "417"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "221"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "宜蘭縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "219"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "高雄市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1439"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺南市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1672"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺中市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "769"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "桃園市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "706"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1094"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1587"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "總計",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "12732"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "連江縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "191"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "金門縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "573"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1131"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1337"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "基隆市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1231"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "澎湖縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "718"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "花蓮縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1444"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2347"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "屏東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1939"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3003"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "雲林縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "905"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "南投縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2135"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "彰化縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3391"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "苗栗縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2000"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2014"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "宜蘭縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1382"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "高雄市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "7470"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺南市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "7527"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺中市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "9776"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "桃園市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "6226"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "19189"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "7193"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "總計",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "83122"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "連江縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "266"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "金門縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "783"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1456"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1684"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "基隆市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1880"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "澎湖縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "822"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "花蓮縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2497"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3108"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "屏東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2756"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3854"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "雲林縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1557"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "南投縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2771"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "彰化縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "4308"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "苗栗縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2586"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2803"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "宜蘭縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2011"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "高雄市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "9705"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺南市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "11012"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺中市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "15628"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "桃園市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "8460"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "25856"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "12038"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "總計",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "117841"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "連江縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "493"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "金門縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1426"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "2757"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3220"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "基隆市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3347"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "澎湖縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "1668"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "花蓮縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "4770"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "5864"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "屏東縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "5432"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "7392"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "雲林縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3022"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "南投縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "5101"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "彰化縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "8203"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "苗栗縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "5003"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "5038"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "宜蘭縣",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "3612"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "高雄市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "18614"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺南市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "20211"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺中市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "26173"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "桃園市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "15392"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "46139"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新北市",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "20818"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "總計",
+            "year": "108",
+            "itemunit": "個",
+            "itemvalue": "213695"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "連江縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "23"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "金門縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "69"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "264"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "214"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "基隆市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "239"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "澎湖縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "121"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "花蓮縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "945"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "187"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "屏東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "586"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "511"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "雲林縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "128"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "南投縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "194"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "彰化縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "516"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "苗栗縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "360"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "230"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "宜蘭縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "263"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "高雄市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2092"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺南市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1426"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺中市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "750"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "桃園市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "981"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "285"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1594"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "總計",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "11978"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "連江縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "153"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "金門縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "556"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1076"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1307"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "基隆市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1234"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "澎湖縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "705"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "花蓮縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1395"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1366"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "屏東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1790"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2885"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "雲林縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1126"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "南投縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2078"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "彰化縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "3423"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "苗栗縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2043"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1951"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "宜蘭縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1419"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "高雄市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "6481"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺南市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "7446"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺中市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "9538"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "桃園市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "5549"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "13306"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "9063"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "總計",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "75890"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "連江縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "252"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "金門縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "767"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1420"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1656"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "基隆市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1877"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "澎湖縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "801"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "花蓮縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2445"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2090"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "屏東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2633"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "3713"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "雲林縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1559"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "南投縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2784"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "彰化縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "4461"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "苗栗縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2509"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2705"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "宜蘭縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2061"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "高雄市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "11177"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺南市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "11008"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺中市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "15248"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "桃園市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "8483"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "16562"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "13821"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "總計",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "110032"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "連江縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "428"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "金門縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1392"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2760"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "3177"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "基隆市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "3350"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "澎湖縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "1627"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "花蓮縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "4785"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "3643"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "屏東縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "5009"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "7109"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "雲林縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "2813"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "南投縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "5056"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "彰化縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "8400"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "苗栗縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "4912"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "4886"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "宜蘭縣",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "3743"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "高雄市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "19750"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺南市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "19880"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺中市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "25536"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "桃園市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "15013"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "30153"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新北市",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "24478"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "總計",
+            "year": "107",
+            "itemunit": "個",
+            "itemvalue": "197900"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "連江縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "38"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "金門縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "80"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "294"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "209"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "基隆市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "226"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "澎湖縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "142"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "花蓮縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1303"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "273"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "屏東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "754"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "嘉義縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1427"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "雲林縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "107"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "南投縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "216"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "彰化縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "516"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "苗栗縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "295"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新竹縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "360"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "宜蘭縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "191"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "高雄市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2617"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺南市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1218"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺中市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "865"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "桃園市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "747"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "臺北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2051"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "新北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2634"
+        },
+        {
+            "itemname": "列管公廁個數\/不分男女",
+            "category": "總計",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "16563"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "連江縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "31"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "金門縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "553"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1677"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2004"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "基隆市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1156"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "澎湖縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "965"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "花蓮縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1451"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1431"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "屏東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2850"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "嘉義縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "5539"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "雲林縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "870"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "南投縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2244"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "彰化縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "3776"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "苗栗縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1811"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新竹縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4112"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "宜蘭縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1713"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "高雄市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4270"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺南市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "8237"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺中市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "10991"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "桃園市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "6536"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "臺北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "18480"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "新北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "14229"
+        },
+        {
+            "itemname": "列管公廁個數\/女",
+            "category": "總計",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "94926"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "連江縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "291"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "金門縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "791"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2108"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2516"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "基隆市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1804"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "澎湖縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1345"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "花蓮縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2052"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2163"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "屏東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4218"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "嘉義縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "7497"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "雲林縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1250"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "南投縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "3256"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "彰化縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4881"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "苗栗縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2358"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新竹縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "5884"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "宜蘭縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2772"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "高雄市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "12363"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺南市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "12517"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺中市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "17573"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "桃園市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "8816"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "臺北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "23600"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "新北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "21470"
+        },
+        {
+            "itemname": "列管公廁個數\/男",
+            "category": "總計",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "141525"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "連江縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "360"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "金門縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "1424"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4079"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4729"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "基隆市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "3186"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "澎湖縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2452"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "花蓮縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4806"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "3867"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "屏東縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "7822"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "嘉義縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "14463"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "雲林縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "2227"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "南投縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "5716"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "彰化縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "9173"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "苗栗縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4464"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新竹縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "10356"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "宜蘭縣",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "4676"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "高雄市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "19250"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺南市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "21972"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺中市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "29429"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "桃園市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "16099"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "臺北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "44131"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "新北市",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "38333"
+        },
+        {
+            "itemname": "列管公廁個數\/總計",
+            "category": "總計",
+            "year": "106",
+            "itemunit": "個",
+            "itemvalue": "253014"
+        }
+    ]
+}
