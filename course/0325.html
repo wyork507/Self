@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Credit Card Validation Program</title>
+    <style>
+    	div.theme {
+    		font-family: monospace;
+    		font-size: 10px;
+    	}
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Credit Card Validation</h2><br>
+        <label for="cardNumbers">Enter Card Numbers (Separated by line):</label><br>
+        <div style="float: left; theme">
+            <textarea id="cardNumbers" rows="8" cols="50"></textarea>
+            <br>
+            <button onclick="validateCards()">Validate</button>
+        </div>
+        <div style="theme" id="validationResults"></div>
+
+    </div>
+    <script>
+    function cardCertification(cardNumber) {
+    	console.count("");
+        var cardNumber = cardNumber.toString();
+        if (cardNumber.length != 16) {
+        	console.warn("ERROR: Length");
+            return {
+                error: "Error: Length does not meet the required format."
+            };
+        } else {
+            var vaildNum = 0;
+            console.groupCollapsed("計算過程");
+            for (var i = 0; i < cardNumber.length; i++) {
+                var tempInt = parseInt(cardNumber.charAt(i));
+                if (isNaN(tempInt)) {
+                	console.warn("ERROR: Not Int");
+                    return {
+                        error: "Invalid character in card number"
+                    };
+                }
+                if ((i % 2) === 0) {
+                	var t = tempInt;
+                    t = tempInt * 2;
+                    if (t > 9) {
+                    	console.log(t+">9");
+                        t = t - 9;
+                    }
+                    console.log([tempInt, t, vaildNum]);
+                    tempInt = t;
+                } else {
+                	console.log([tempInt, tempInt, vaildNum]);
+                }
+                vaildNum = vaildNum + tempInt;
+            }
+            console.groupEnd();
+
+            return {
+            	vaildNum: vaildNum,
+                validation: function() {
+                    if (vaildNum % 10 === 0) {
+                        return "Has Vailed";
+                    } else {
+                        return "Not Vailed";
+                    }
+                }(),
+                organization: function() {
+                    var firstDigit = parseInt(cardNumber.charAt(0));
+                    switch (firstDigit) {
+                        case 3:
+                            var id = parseInt(cardNumber.slice(0, 4));
+                            if (id >= 3400 && id <= 3799) {
+                                return "American Express";
+                            } else if (id >= 3528 && id <= 3589) {
+                                return "JCB";
+                            } else {
+                                return "Undefined";
+                            }
+                            break;
+                        case 4:
+                            return "VISA";
+                        case 5:
+                            var id = parseInt(cardNumber.slice(0, 2));
+                            if (id >= 51 && id <= 55) {
+                                return "Mastercard";
+                            } else {
+                                return "Undefined";
+                            }
+                            break;
+                        default:
+                            return "Undefined";
+                    }
+                }()
+            };
+        }
+    }
+
+
+    function validateCards() {
+        var cardNumbersInput = document.getElementById('cardNumbers').value;
+        var cardNumbersArray = cardNumbersInput.replace(/-/g, '').split('\n');
+        var validationResults = document.getElementById('validationResults');
+        validationResults.innerHTML = '';
+
+        cardNumbersArray.forEach(function(cardNumber) {
+            var cardInfo = cardCertification(cardNumber.trim());
+            var resultDiv = document.createElement('div');
+            if (cardInfo.error) {
+                resultDiv.textContent = cardInfo.error;
+            } else {
+                resultDiv.textContent = cardNumber.trim().slice(0, 4) + '-****-****-' + cardNumber.trim().slice(12, 16) + ' : ' + cardInfo.validation + ' / ' + cardInfo.organization + "(vaildNum: " + cardInfo.vaildNum + ")";
+            }
+            validationResults.appendChild(resultDiv);
+        });
+    }
+    </script>
+</body>
+
+</html>
