@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>博物館地圖</title>
+<!-- 核心：Tocas UI -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.2.5/tocas.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocas/4.2.5/tocas.min.js"></script>
+<!-- 字體：Noto Sans TC -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5758e7ff13933eda32b11960c300e3e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b5758e7ff13933eda32b11960c300e3e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b5758e7ff13933eda32b11960c300e3e = L.map(
+                "map_b5758e7ff13933eda32b11960c300e3e",
+                {
+                    center: [25.072279989287, 121.524738036806],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9d6d77bc790a25248cec9dfa8742a89 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b9d6d77bc790a25248cec9dfa8742a89.addTo(map_b5758e7ff13933eda32b11960c300e3e);
+        
+    
+            var feature_group_6af25442c94bae3ae8cacda6ae36ef43 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_739f0f65523a5206bf02e1ffeac2c80b = L.marker(
+                [22.046234995148, 120.70246595922],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_45eb25af20fbe14ba591ad10d46e78bf = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_744d210bc054ef0eba9ea7f6f149ca94 = $(`<div id="html_744d210bc054ef0eba9ea7f6f149ca94" style="width: 100.0%; height: 100.0%;">     <h1>國立海洋生物博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Museum of Marine Biology & Aquarium, Pingtung County<br>           屏東縣, 屏東縣車城鄉後灣路2號       </div>       <div class="ts-content">         關鍵詞：海洋 海底生物 海底隧道 夜宿 珊瑚 生態 水族 小孩 教育 森林<br>         <div class="ts-box">         	978032.0人次到訪         </div>         <div class="ts-box">         	0.433(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_45eb25af20fbe14ba591ad10d46e78bf.setContent(html_744d210bc054ef0eba9ea7f6f149ca94);
+            
+        
+
+        marker_739f0f65523a5206bf02e1ffeac2c80b.bindPopup(popup_45eb25af20fbe14ba591ad10d46e78bf)
+        ;
+
+        
+    
+    
+            var marker_772795358f9fbb9f4c4e9c95d4dc8989 = L.marker(
+                [24.457395013635, 120.758189019169],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_1836bf46584586c2b2abf1be6a01c40b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5fc0915a12faf58db8629fb5610c6f6a = $(`<div id="html_5fc0915a12faf58db8629fb5610c6f6a" style="width: 100.0%; height: 100.0%;">     <h1>臺灣客家文化館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Taiwan HAKKA Museum, Miaoli County<br>           苗栗縣, 苗栗縣銅鑼鄉銅科南路6號       </div>       <div class="ts-content">         關鍵詞：客家 文化 活動 公園 免費 火車 觀光 體驗 茶文化 推車<br>         <div class="ts-box">         	603968.0人次到訪         </div>         <div class="ts-box">         	0.421(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_1836bf46584586c2b2abf1be6a01c40b.setContent(html_5fc0915a12faf58db8629fb5610c6f6a);
+            
+        
+
+        marker_772795358f9fbb9f4c4e9c95d4dc8989.bindPopup(popup_1836bf46584586c2b2abf1be6a01c40b)
+        ;
+
+        
+    
+    
+            var marker_29b232ae7d7d941b68b855c621b7b81c = L.marker(
+                [22.667657981006, 120.566162970181],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_ce9062166a4c4165924cad59b5c0cf35 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_2a77a9159be9a1fc5e59415d1ef603bc = $(`<div id="html_2a77a9159be9a1fc5e59415d1ef603bc" style="width: 100.0%; height: 100.0%;">     <h1>六堆客家文化園區</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Liudui Hakka Cultural Park, Pingtung County<br>           屏東縣, 屏東縣內埔鄉信義路588號       </div>       <div class="ts-content">         關鍵詞：客家 文化 活動 報名 粄 聚落 自然 體驗 藝術 演出 <br>         <div class="ts-box">         	713713.0人次到訪         </div>         <div class="ts-box">         	0.402(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_ce9062166a4c4165924cad59b5c0cf35.setContent(html_2a77a9159be9a1fc5e59415d1ef603bc);
+            
+        
+
+        marker_29b232ae7d7d941b68b855c621b7b81c.bindPopup(popup_ce9062166a4c4165924cad59b5c0cf35)
+        ;
+
+        
+    
+    
+            var marker_bc5988b30cafe32cb6aee16d6a486fe6 = L.marker(
+                [25.099962984724, 121.548568961],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_fe88babc2b5e3f50f83ddeb79c6d53bb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1ea0a18500dbd006b05a231c032f7722 = $(`<div id="html_1ea0a18500dbd006b05a231c032f7722" style="width: 100.0%; height: 100.0%;">     <h1>國立故宮博物院</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Palace Museum, Taipei City<br>           臺北市, 台北市士林區至善路二段221號       </div>       <div class="ts-content">         關鍵詞：唐伯虎 故事 孔明 歷史 免費 資料 文物 書 雪山 作品<br>         <div class="ts-box">         	1552190.0人次到訪         </div>         <div class="ts-box">         	0.431(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_fe88babc2b5e3f50f83ddeb79c6d53bb.setContent(html_1ea0a18500dbd006b05a231c032f7722);
+            
+        
+
+        marker_bc5988b30cafe32cb6aee16d6a486fe6.bindPopup(popup_fe88babc2b5e3f50f83ddeb79c6d53bb)
+        ;
+
+        
+    
+    
+            var marker_a8545d541d3da29f812c55303543b5e9 = L.marker(
+                [25.072279989287, 121.524738036806],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_37e498ac2e55642ec85658ab51ea3618 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9ecd73162b71a19db754ccbae8a3dceb = $(`<div id="html_9ecd73162b71a19db754ccbae8a3dceb" style="width: 100.0%; height: 100.0%;">     <h1>臺北市立美術館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Taipei Fine Arts Museum, Taipei City<br>           臺北市, 台北市中山區中山北路三段181號       </div>       <div class="ts-content">         關鍵詞：免費 資訊 政府 公車 藝術 展覽 大法官 文化 地板 電影<br>         <div class="ts-box">         	603499.0人次到訪         </div>         <div class="ts-box">         	0.39(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_37e498ac2e55642ec85658ab51ea3618.setContent(html_9ecd73162b71a19db754ccbae8a3dceb);
+            
+        
+
+        marker_a8545d541d3da29f812c55303543b5e9.bindPopup(popup_37e498ac2e55642ec85658ab51ea3618)
+        ;
+
+        
+    
+    
+            var marker_990b0b13a2709a1a81dc42e8549b4a13 = L.marker(
+                [25.031244202997, 121.51123831119],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_161f66786937d82003b772f4d5a1d1bb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_108cde4252a66a51ab8637b68ca7dc1f = $(`<div id="html_108cde4252a66a51ab8637b68ca7dc1f" style="width: 100.0%; height: 100.0%;">     <h1>國立歷史博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Museum of History, Taipei City<br>           臺北市, 台北市中正區南海路49號       </div>       <div class="ts-content">         關鍵詞：玉山 日本 收藏 文化 免費 造像 作品 森林 畢卡索 遊樂區<br>         <div class="ts-box">         	1405512.0人次到訪         </div>         <div class="ts-box">         	0.44(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_161f66786937d82003b772f4d5a1d1bb.setContent(html_108cde4252a66a51ab8637b68ca7dc1f);
+            
+        
+
+        marker_990b0b13a2709a1a81dc42e8549b4a13.bindPopup(popup_161f66786937d82003b772f4d5a1d1bb)
+        ;
+
+        
+    
+    
+            var marker_e23ad7c9efe2d7776ad3951cb03710a0 = L.marker(
+                [25.095985981215, 121.515978025978],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_cae4ad066549a21e26af31706b70138f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_70f04b0f77d83224bea09c1f5d40b282 = $(`<div id="html_70f04b0f77d83224bea09c1f5d40b282" style="width: 100.0%; height: 100.0%;">     <h1>國立臺灣科學教育館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Taiwan Science Education Center, Taipei City<br>           臺北市, 台北市士林區士商路189號       </div>       <div class="ts-content">         關鍵詞：免費 教育 TOMICA 活動 科學 世界 森林 汽車 實驗 研究<br>         <div class="ts-box">         	2467537.0人次到訪         </div>         <div class="ts-box">         	0.446(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_cae4ad066549a21e26af31706b70138f.setContent(html_70f04b0f77d83224bea09c1f5d40b282);
+            
+        
+
+        marker_e23ad7c9efe2d7776ad3951cb03710a0.bindPopup(popup_cae4ad066549a21e26af31706b70138f)
+        ;
+
+        
+    
+    
+            var marker_6f3bc6b65896f3ed15dae05640044547 = L.marker(
+                [25.095783390615, 121.518346165083],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_68d0710a1b0a9c9d12e37c0b56772030 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3f864913340671e1c30f5bc2157de2d6 = $(`<div id="html_3f864913340671e1c30f5bc2157de2d6" style="width: 100.0%; height: 100.0%;">     <h1>臺北市立天文科學教育館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Taipei Astronomical Museum, Taipei City<br>           臺北市, 台北市士林區基河路363號       </div>       <div class="ts-content">         關鍵詞：天文 流星雨 免費 教育 地球 公園 劇場 展示 宇宙 撞擊 <br>         <div class="ts-box">         	1098409.0人次到訪         </div>         <div class="ts-box">         	0.432(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_68d0710a1b0a9c9d12e37c0b56772030.setContent(html_3f864913340671e1c30f5bc2157de2d6);
+            
+        
+
+        marker_6f3bc6b65896f3ed15dae05640044547.bindPopup(popup_68d0710a1b0a9c9d12e37c0b56772030)
+        ;
+
+        
+    
+    
+            var marker_d72de07b54906a6f69467714da4403e1 = L.marker(
+                [25.039513998218, 121.560257022064],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_f644a2b12cf9f7b6a562858930267b5b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f9e0eedef6eb329d97e98318d0b1769b = $(`<div id="html_f9e0eedef6eb329d97e98318d0b1769b" style="width: 100.0%; height: 100.0%;">     <h1>國立國父紀念館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Dr. Sun Yat-sen Memorial Hall, Taipei City<br>           臺北市, 台北市信義區仁愛路四段505號       </div>       <div class="ts-content">         關鍵詞：演員 導演 劇場 文化 編劇 演出 廣播 演藝廳 藝術 教育<br>         <div class="ts-box">         	8598830.0人次到訪         </div>         <div class="ts-box">         	0.439(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_f644a2b12cf9f7b6a562858930267b5b.setContent(html_f9e0eedef6eb329d97e98318d0b1769b);
+            
+        
+
+        marker_d72de07b54906a6f69467714da4403e1.bindPopup(popup_f644a2b12cf9f7b6a562858930267b5b)
+        ;
+
+        
+    
+    
+            var marker_8ab293cb8f42d05de1e1f7892ed2bfd9 = L.marker(
+                [25.036635987943, 121.517716013602],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_c27d3509fa1099618b5d30c0c28657c7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4ed5b0a6db2f4e60cfc885b26892f962 = $(`<div id="html_4ed5b0a6db2f4e60cfc885b26892f962" style="width: 100.0%; height: 100.0%;">     <h1>國立中正紀念堂</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Chiang Kai-shek Memorial Hall, Taipei City<br>           臺北市, 台北市中正區中山南路21號       </div>       <div class="ts-content">         關鍵詞：活動 登山 轉型 改名 兩廳 立法院 廣場 總統 文化 山岳<br>         <div class="ts-box">         	3202377.0人次到訪         </div>         <div class="ts-box">         	0.39(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_c27d3509fa1099618b5d30c0c28657c7.setContent(html_4ed5b0a6db2f4e60cfc885b26892f962);
+            
+        
+
+        marker_8ab293cb8f42d05de1e1f7892ed2bfd9.bindPopup(popup_c27d3509fa1099618b5d30c0c28657c7)
+        ;
+
+        
+    
+    
+            var marker_eebe40f14a0f6537db5ab5caf3242f08 = L.marker(
+                [25.037524008675, 121.563783959282],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_d28f94c4a18ac004fdac60bf2a1705ad = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_702c4ae7dc7bff27a7071612ca233c11 = $(`<div id="html_702c4ae7dc7bff27a7071612ca233c11" style="width: 100.0%; height: 100.0%;">     <h1>台北探索館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Discovery Center of Taipei, Taipei City<br>           臺北市, 台北市信義區市府路1號       </div>       <div class="ts-content">         關鍵詞：小孩 探索 高鐵 公園 免費 商圈 男友 夜市 學生 文化<br>         <div class="ts-box">         	233700.0人次到訪         </div>         <div class="ts-box">         	0.441(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_d28f94c4a18ac004fdac60bf2a1705ad.setContent(html_702c4ae7dc7bff27a7071612ca233c11);
+            
+        
+
+        marker_eebe40f14a0f6537db5ab5caf3242f08.bindPopup(popup_d28f94c4a18ac004fdac60bf2a1705ad)
+        ;
+
+        
+    
+    
+            var marker_0c580c443570a815abd62396c341ab29 = L.marker(
+                [24.9361756, 121.7116927],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_1c992f492ca55004a4946125ad9ed8dc = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c24e0e42b8247a8be9a98162c1b5e1e2 = $(`<div id="html_c24e0e42b8247a8be9a98162c1b5e1e2" style="width: 100.0%; height: 100.0%;">     <h1>新北市坪林茶業博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Pinglin Tea Museum of New Taipei City, New Taipei City<br>           新北市, 新北市坪林區水德里水聳淒坑19-1號       </div>       <div class="ts-content">         關鍵詞：公園 茶 免費 重生 老街 餐廳 文化 網路 巢穴 茶業 <br>         <div class="ts-box">         	241654.0人次到訪         </div>         <div class="ts-box">         	0.483(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_1c992f492ca55004a4946125ad9ed8dc.setContent(html_c24e0e42b8247a8be9a98162c1b5e1e2);
+            
+        
+
+        marker_0c580c443570a815abd62396c341ab29.bindPopup(popup_1c992f492ca55004a4946125ad9ed8dc)
+        ;
+
+        
+    
+    
+            var marker_39e94f2a0d082cdda23b82fe140a5e56 = L.marker(
+                [24.94932819854, 121.352214413393],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_875281841b0e07fbb4d2d363c49613b2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_94c8a545aad4767982eb73d0003e94c8 = $(`<div id="html_94c8a545aad4767982eb73d0003e94c8" style="width: 100.0%; height: 100.0%;">     <h1>新北市立鶯歌陶瓷博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           New Taipei City Yingge Ceramics Museum, New Taipei City<br>           新北市, 新北市鶯歌區文化路200號       </div>       <div class="ts-content">         關鍵詞：公園 重生 巢穴 運動 腕力 蛇 河濱 陶瓷 犀牛 龍<br>         <div class="ts-box">         	4629192.0人次到訪         </div>         <div class="ts-box">         	0.65(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_875281841b0e07fbb4d2d363c49613b2.setContent(html_94c8a545aad4767982eb73d0003e94c8);
+            
+        
+
+        marker_39e94f2a0d082cdda23b82fe140a5e56.bindPopup(popup_875281841b0e07fbb4d2d363c49613b2)
+        ;
+
+        
+    
+    
+            var marker_48d000a5e6e27194a7992373dba3df00 = L.marker(
+                [25.157036997917, 121.405003974868],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_37dad3bf8a37513a17ee55beff2e230e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_cce5e668274730d866c094f9c44a1ea8 = $(`<div id="html_cce5e668274730d866c094f9c44a1ea8" style="width: 100.0%; height: 100.0%;">     <h1>新北市立十三行博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           New Taipei City Shihsanhang Museum of Archaeology, New Taipei City<br>           新北市, 新北市八里區博物館路200號       </div>       <div class="ts-content">         關鍵詞：公園 巢穴 演出 演員 文化 導演 劇場 編劇 運動 演藝廳<br>         <div class="ts-box">         	580723.0人次到訪         </div>         <div class="ts-box">         	0.577(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_37dad3bf8a37513a17ee55beff2e230e.setContent(html_cce5e668274730d866c094f9c44a1ea8);
+            
+        
+
+        marker_48d000a5e6e27194a7992373dba3df00.bindPopup(popup_37dad3bf8a37513a17ee55beff2e230e)
+        ;
+
+        
+    
+    
+            var marker_a5322bdbbc951ad9392ef5bea611e7d0 = L.marker(
+                [25.108223015027, 121.856152034298],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_9964b45e43be8bd1cbc3eefec1728cc4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b38e677f08238c8c8c273bbb3c4a9990 = $(`<div id="html_b38e677f08238c8c8c273bbb3c4a9990" style="width: 100.0%; height: 100.0%;">     <h1>新北市立黃金博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           New Taipei City Government Gold Museum, New Taipei City<br>           新北市, 新北市瑞芳區金光路8號       </div>       <div class="ts-content">         關鍵詞：謎題 故事 場景 華山 演員 放映 劇情 導演 密室 劇場<br>         <div class="ts-box">         	984554.0人次到訪         </div>         <div class="ts-box">         	0.427(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_9964b45e43be8bd1cbc3eefec1728cc4.setContent(html_b38e677f08238c8c8c273bbb3c4a9990);
+            
+        
+
+        marker_a5322bdbbc951ad9392ef5bea611e7d0.bindPopup(popup_9964b45e43be8bd1cbc3eefec1728cc4)
+        ;
+
+        
+    
+    
+            var marker_e52c723d1adc993794e7a25072bad5fb = L.marker(
+                [24.94170930001, 121.359823421277],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_6fbe62daa8b2e6ae8d829ba47be44710 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c7e01234e7487c4a184b5dac8c630609 = $(`<div id="html_c7e01234e7487c4a184b5dac8c630609" style="width: 100.0%; height: 100.0%;">     <h1>新北市客家文化園區</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           New Taipei City Hakka Museum, New Taipei City<br>           新北市, 新北市三峽區隆恩街239號       </div>       <div class="ts-content">         關鍵詞：公園 文化 重生 劇場 客家 森林 演員 河濱 腕力 演藝廳<br>         <div class="ts-box">         	602453.0人次到訪         </div>         <div class="ts-box">         	0.622(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_6fbe62daa8b2e6ae8d829ba47be44710.setContent(html_c7e01234e7487c4a184b5dac8c630609);
+            
+        
+
+        marker_e52c723d1adc993794e7a25072bad5fb.bindPopup(popup_6fbe62daa8b2e6ae8d829ba47be44710)
+        ;
+
+        
+    
+    
+            var marker_0bae412146523059a76958e24de55759 = L.marker(
+                [25.140197586799, 121.798851835448],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_e3393246e8074308f4ca29d543bd7d96 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_40972269f5cdca57f3fb29d57aecaaf1 = $(`<div id="html_40972269f5cdca57f3fb29d57aecaaf1" style="width: 100.0%; height: 100.0%;">     <h1>國立海洋科技博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Museum of Marine Science & Technology, Keelung City<br>           基隆市, 基隆市中正區北寧路367號       </div>       <div class="ts-content">         關鍵詞：海洋 潮境 IMAX 科技 公園 銀幕 智能 雷射 免費 影廳 <br>         <div class="ts-box">         	2726173.0人次到訪         </div>         <div class="ts-box">         	0.425(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_e3393246e8074308f4ca29d543bd7d96.setContent(html_40972269f5cdca57f3fb29d57aecaaf1);
+            
+        
+
+        marker_0bae412146523059a76958e24de55759.bindPopup(popup_e3393246e8074308f4ca29d543bd7d96)
+        ;
+
+        
+    
+    
+            var marker_a206387db481c77945d8c18a1cb1b37d = L.marker(
+                [25.1326219808, 121.740169963678],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_fca2a9d83eb3a791a43c341290f8846c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a61890d8af00bc209c18954a8ca88b02 = $(`<div id="html_a61890d8af00bc209c18954a8ca88b02" style="width: 100.0%; height: 100.0%;">     <h1>陽明海洋文化藝術館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Yangming Oceanic Culture and Art Museum, Keelung City<br>           基隆市, 基隆市仁愛區港西街4號       </div>       <div class="ts-content">         關鍵詞：演員 導演 文化 公園 編劇 劇場 藝術 表演 海洋 三明治<br>         <div class="ts-box">         	21137.0人次到訪         </div>         <div class="ts-box">         	0.434(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_fca2a9d83eb3a791a43c341290f8846c.setContent(html_a61890d8af00bc209c18954a8ca88b02);
+            
+        
+
+        marker_a206387db481c77945d8c18a1cb1b37d.bindPopup(popup_fca2a9d83eb3a791a43c341290f8846c)
+        ;
+
+        
+    
+    
+            var marker_f1be8bd667f98377e47f30aff1741160 = L.marker(
+                [24.4127987, 120.7702219],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_8f31d24f959f606a540d73c14167dd79 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_533cf3a30c47d75afb6db98343fce971 = $(`<div id="html_533cf3a30c47d75afb6db98343fce971" style="width: 100.0%; height: 100.0%;">     <h1>木雕博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Miaoli Woodsculpture Museum, Miaoli County<br>           苗栗縣, 苗栗縣三義鄉廣盛村廣聲新城88號       </div>       <div class="ts-content">         關鍵詞：木雕 文化 建築 特色 客家 勝興 森林 設計 草莓 遊樂區<br>         <div class="ts-box">         	60320.0人次到訪         </div>         <div class="ts-box">         	0.408(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_8f31d24f959f606a540d73c14167dd79.setContent(html_533cf3a30c47d75afb6db98343fce971);
+            
+        
+
+        marker_f1be8bd667f98377e47f30aff1741160.bindPopup(popup_8f31d24f959f606a540d73c14167dd79)
+        ;
+
+        
+    
+    
+            var marker_ff4bd0ae75122c5e47cdbd8c0fb691bc = L.marker(
+                [24.155801480709, 120.666160080892],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_f0408f3a3e78136d1ec21263c186ea27 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a3321474793dc0dbd264d2163898d227 = $(`<div id="html_a3321474793dc0dbd264d2163898d227" style="width: 100.0%; height: 100.0%;">     <h1>國立自然科學博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Museum of Natural Science, Taichung City<br>           臺中市, 台中市北區館前路1號       </div>       <div class="ts-content">         關鍵詞：研究 自然 展示 免費 活動 化石 登山 特展 科學 世界 <br>         <div class="ts-box">         	2738348.0人次到訪         </div>         <div class="ts-box">         	0.446(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_f0408f3a3e78136d1ec21263c186ea27.setContent(html_a3321474793dc0dbd264d2163898d227);
+            
+        
+
+        marker_ff4bd0ae75122c5e47cdbd8c0fb691bc.bindPopup(popup_f0408f3a3e78136d1ec21263c186ea27)
+        ;
+
+        
+    
+    
+            var marker_3a5850386728ae28168b9514fa686ac2 = L.marker(
+                [24.140208482703, 120.662980270486],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_3d6a9b53ba44a17bcabb1e1769a96c23 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5656c670373931eca78a0ca1573c3090 = $(`<div id="html_5656c670373931eca78a0ca1573c3090" style="width: 100.0%; height: 100.0%;">     <h1>國立臺灣美術館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Taiwan Museum of Fine Arts, Taichung City<br>           臺中市, 台中市西區五權西路一段2號       </div>       <div class="ts-content">         關鍵詞：作品 藝術 文化 重生 免費 光影 研究 藝術家 法官 歷史<br>         <div class="ts-box">         	567258.0人次到訪         </div>         <div class="ts-box">         	0.572(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_3d6a9b53ba44a17bcabb1e1769a96c23.setContent(html_5656c670373931eca78a0ca1573c3090);
+            
+        
+
+        marker_3a5850386728ae28168b9514fa686ac2.bindPopup(popup_3d6a9b53ba44a17bcabb1e1769a96c23)
+        ;
+
+        
+    
+    
+            var marker_8eb9eb951dd1bdfb93c0c10963bebd7e = L.marker(
+                [23.058019011774, 120.235147029271],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_a4621055ef9648363a817217961ee0ea = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_911d7586961c8dcf6f42e0c0a193dc58 = $(`<div id="html_911d7586961c8dcf6f42e0c0a193dc58" style="width: 100.0%; height: 100.0%;">     <h1>國立臺灣歷史博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Museum of Taiwan History, Tainan City<br>           臺南市, 台南市安南區長和路一段250號       </div>       <div class="ts-content">         關鍵詞：公園 歷史 文化 重生 活動 生活 日本 AI 自由 展覽<br>         <div class="ts-box">         	579619.0人次到訪         </div>         <div class="ts-box">         	0.587(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_a4621055ef9648363a817217961ee0ea.setContent(html_911d7586961c8dcf6f42e0c0a193dc58);
+            
+        
+
+        marker_8eb9eb951dd1bdfb93c0c10963bebd7e.bindPopup(popup_a4621055ef9648363a817217961ee0ea)
+        ;
+
+        
+    
+    
+            var marker_0fda40c7e944eb4b7d70a651d4a89923 = L.marker(
+                [22.639801019169, 120.323422970401],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_fbf99a70ddcd71b6a72b0ef551446689 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_eb721cb62c115b134d2c9fc7324414c9 = $(`<div id="html_eb721cb62c115b134d2c9fc7324414c9" style="width: 100.0%; height: 100.0%;">     <h1>國立科學工藝博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Science and Technology Museum, Kaohsiung City<br>           高雄市, 高雄市三民區九如一路720號       </div>       <div class="ts-content">         關鍵詞：科學 展示 工藝 日本 優惠 研究 教育 活動 世界 保存<br>         <div class="ts-box">         	2026078.0人次到訪         </div>         <div class="ts-box">         	0.395(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_fbf99a70ddcd71b6a72b0ef551446689.setContent(html_eb721cb62c115b134d2c9fc7324414c9);
+            
+        
+
+        marker_0fda40c7e944eb4b7d70a651d4a89923.bindPopup(popup_fbf99a70ddcd71b6a72b0ef551446689)
+        ;
+
+        
+    
+    
+            var marker_16ec4b7791aa8555caf8bb47383d89e4 = L.marker(
+                [22.654986283964, 120.286741508077],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_4f734443eff22c54deb6afb54235c783 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_ecbd4e773b8555e261f68287a6a2187a = $(`<div id="html_ecbd4e773b8555e261f68287a6a2187a" style="width: 100.0%; height: 100.0%;">     <h1>高雄市立美術館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Kaoshiung Museum of Fine Arts, Kaohsiung City<br>           高雄市, 高雄市鼓山區美術館路80號       </div>       <div class="ts-content">         關鍵詞：文化 免費 活動 藝術 輕軌 展覽 展出 市民 特展 露營<br>         <div class="ts-box">         	1853119.0人次到訪         </div>         <div class="ts-box">         	0.415(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_4f734443eff22c54deb6afb54235c783.setContent(html_ecbd4e773b8555e261f68287a6a2187a);
+            
+        
+
+        marker_16ec4b7791aa8555caf8bb47383d89e4.bindPopup(popup_4f734443eff22c54deb6afb54235c783)
+        ;
+
+        
+    
+    
+            var marker_7df50f5a6417c68c5a41f92c29504287 = L.marker(
+                [22.626772985154, 120.286839986354],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_d0b3a11661b5b9b184f693b33158564e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0315a63b068417cf561155d8e07aa574 = $(`<div id="html_0315a63b068417cf561155d8e07aa574" style="width: 100.0%; height: 100.0%;">     <h1>高雄市立歷史博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Kaohsiung Museum of History, Kaohsiung City<br>           高雄市, 高雄市鹽埕區中正四路272號       </div>       <div class="ts-content">         關鍵詞：歷史 屠殺 證據 蛋餅 國民黨 志工 展覽 基金 二二八 活動<br>         <div class="ts-box">         	338983.0人次到訪         </div>         <div class="ts-box">         	0.446(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_d0b3a11661b5b9b184f693b33158564e.setContent(html_0315a63b068417cf561155d8e07aa574);
+            
+        
+
+        marker_7df50f5a6417c68c5a41f92c29504287.bindPopup(popup_d0b3a11661b5b9b184f693b33158564e)
+        ;
+
+        
+    
+    
+            var marker_21bac9b7a81259a1fedaca11702a0e9e = L.marker(
+                [22.759086020644, 121.091572009535],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_94ca63cab4f52a67dba31e29148ca6dc = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7ae7b8d1dd292140d4e598bd69b83391 = $(`<div id="html_7ae7b8d1dd292140d4e598bd69b83391" style="width: 100.0%; height: 100.0%;">     <h1>國立臺灣史前文化博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Museum of Prehistory, Taitung County<br>           臺東縣, 台東縣台東市博物館路1號       </div>       <div class="ts-content">         關鍵詞：文化 史前 遺址 免費 歷史 研究 卑南 特展  人類 民族<br>         <div class="ts-box">         	162058.0人次到訪         </div>         <div class="ts-box">         	0.434(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_94ca63cab4f52a67dba31e29148ca6dc.setContent(html_7ae7b8d1dd292140d4e598bd69b83391);
+            
+        
+
+        marker_21bac9b7a81259a1fedaca11702a0e9e.bindPopup(popup_94ca63cab4f52a67dba31e29148ca6dc)
+        ;
+
+        
+    
+    
+            var marker_accfaa95fa4c186a9602b5e60af72ff4 = L.marker(
+                [22.792262012508, 121.116020009441],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_d68d7ec580bda9d10a9648a71806498f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_bb1ba8b8733a6f797f83bcfb0b0cc564 = $(`<div id="html_bb1ba8b8733a6f797f83bcfb0b0cc564" style="width: 100.0%; height: 100.0%;">     <h1>卑南遺址公園</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Peinan Site Park, Taitung County<br>           臺東縣, 台東縣台東市文化公園路200號       </div>       <div class="ts-content">         關鍵詞：文化 遺址 史前 考古 公園 市區 免費 展示 人類 石柱<br>         <div class="ts-box">         	311385.0人次到訪         </div>         <div class="ts-box">         	0.46(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_d68d7ec580bda9d10a9648a71806498f.setContent(html_bb1ba8b8733a6f797f83bcfb0b0cc564);
+            
+        
+
+        marker_accfaa95fa4c186a9602b5e60af72ff4.bindPopup(popup_d68d7ec580bda9d10a9648a71806498f)
+        ;
+
+        
+    
+    
+            var marker_8a0088916c91839f0bd6f2859067de53 = L.marker(
+                [24.425521388264, 118.318003632199],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_a8076180ecee22d7d956189ffee5301d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_31179b59ec21f4ee6cc465c8948a4365 = $(`<div id="html_31179b59ec21f4ee6cc465c8948a4365" style="width: 100.0%; height: 100.0%;">     <h1>莒光樓</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Juguang Tower, Kinmen County<br>           金門縣, 金門縣金城鎮賢城路1號       </div>       <div class="ts-content">         關鍵詞：坑道 金城 水頭 貢糖 聚落 翟山 老街 公園 碼頭 戰史館<br>         <div class="ts-box">         	252358.0人次到訪         </div>         <div class="ts-box">         	0.302(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_a8076180ecee22d7d956189ffee5301d.setContent(html_31179b59ec21f4ee6cc465c8948a4365);
+            
+        
+
+        marker_8a0088916c91839f0bd6f2859067de53.bindPopup(popup_a8076180ecee22d7d956189ffee5301d)
+        ;
+
+        
+    
+    
+            var marker_f1cb7ffd72810d6f1b5ee39c59ba5183 = L.marker(
+                [23.469224372977, 120.295743688775],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_caec4f90cc07da4ec9fc99418c48df98 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b05fc7e4ad6bf13bf0c6538bbab9194b = $(`<div id="html_b05fc7e4ad6bf13bf0c6538bbab9194b" style="width: 100.0%; height: 100.0%;">     <h1>國立故宮博物院南部院區</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Southern Branch of the National Palace Museum, Chiayi County<br>           嘉義縣, 嘉義縣太保市故宮大道888號       </div>       <div class="ts-content">         關鍵詞：建築 設計 文物 亞洲 警察 創意 小朋友 玻璃 展覽 日本<br>         <div class="ts-box">         	954296.0人次到訪         </div>         <div class="ts-box">         	0.411(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_caec4f90cc07da4ec9fc99418c48df98.setContent(html_b05fc7e4ad6bf13bf0c6538bbab9194b);
+            
+        
+
+        marker_f1cb7ffd72810d6f1b5ee39c59ba5183.bindPopup(popup_caec4f90cc07da4ec9fc99418c48df98)
+        ;
+
+        
+    
+    
+            var marker_48a2dc64142dcac02a0e2581ce9848fd = L.marker(
+                [25.050624690309, 121.518593323692],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_fa4f847c67e2cc959ed633cb5b352fba = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_2c67b842932e6ef85be27c1e03528ba8 = $(`<div id="html_2c67b842932e6ef85be27c1e03528ba8" style="width: 100.0%; height: 100.0%;">     <h1>台北當代藝術館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Museum of Contemporary Art ,Taipei, Taipei City<br>           臺北市, 台北市大同區長安西路39號       </div>       <div class="ts-content">         關鍵詞：作品 藝術 展覽 阿信 創作 文化 音樂  參觀 設計 策展<br>         <div class="ts-box">         	216847.0人次到訪         </div>         <div class="ts-box">         	0.391(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_fa4f847c67e2cc959ed633cb5b352fba.setContent(html_2c67b842932e6ef85be27c1e03528ba8);
+            
+        
+
+        marker_48a2dc64142dcac02a0e2581ce9848fd.bindPopup(popup_fa4f847c67e2cc959ed633cb5b352fba)
+        ;
+
+        
+    
+    
+            var marker_46cdcfce4c2df226f417c160dd9b8550 = L.marker(
+                [25.250128, 121.612194],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_a1180feabb00650f91f65f823102250b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5b5c8c08b37acea88dd4f13205d5f948 = $(`<div id="html_5b5c8c08b37acea88dd4f13205d5f948" style="width: 100.0%; height: 100.0%;">     <h1>朱銘美術館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Juming Museum, New Taipei City<br>           新北市, 新北市金山區西勢湖2號       </div>       <div class="ts-content">         關鍵詞：朱銘 作品 藝術 雕塑 太極 小孩 餐廳 寵物 創作 戶外<br>         <div class="ts-box">         	60405.0人次到訪         </div>         <div class="ts-box">         	0.366(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_a1180feabb00650f91f65f823102250b.setContent(html_5b5c8c08b37acea88dd4f13205d5f948);
+            
+        
+
+        marker_46cdcfce4c2df226f417c160dd9b8550.bindPopup(popup_a1180feabb00650f91f65f823102250b)
+        ;
+
+        
+    
+    
+            var marker_5e0326dcb6b680fcdc94419137eb806c = L.marker(
+                [22.934472608815, 120.22647041838],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_22609278d47d9936be443c77a2c8c804 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_78b21c9a7f2307ccdad129debf007434 = $(`<div id="html_78b21c9a7f2307ccdad129debf007434" style="width: 100.0%; height: 100.0%;">     <h1>奇美博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Chimei Museum, Tainan City<br>           臺南市, 台南市仁德區文華路二段66號       </div>       <div class="ts-content">         關鍵詞：盔甲 日本 作品 英國 藝廊 特展 拍照 展覽 寶可夢 梵谷<br>         <div class="ts-box">         	663837.0人次到訪         </div>         <div class="ts-box">         	0.419(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_22609278d47d9936be443c77a2c8c804.setContent(html_78b21c9a7f2307ccdad129debf007434);
+            
+        
+
+        marker_5e0326dcb6b680fcdc94419137eb806c.bindPopup(popup_22609278d47d9936be443c77a2c8c804)
+        ;
+
+        
+    
+    
+            var marker_f97caa02a78d94078563f682464427c5 = L.marker(
+                [25.136690514691, 121.507125814216],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_637a25d09c7aa4b6519bcba7bfda515b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b5ce2ea67723538064d2f840c68bc8b6 = $(`<div id="html_b5ce2ea67723538064d2f840c68bc8b6" style="width: 100.0%; height: 100.0%;">     <h1>北投溫泉博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Beitou Hot Spring Museum, Taipei City<br>           臺北市, 台北市北投區中山路2號       </div>       <div class="ts-content">         關鍵詞：溫泉 公園 麵 建築 圖書館 廢墟 車站 浴場 觀光 文化<br>         <div class="ts-box">         	368584.0人次到訪         </div>         <div class="ts-box">         	0.397(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_637a25d09c7aa4b6519bcba7bfda515b.setContent(html_b5ce2ea67723538064d2f840c68bc8b6);
+            
+        
+
+        marker_f97caa02a78d94078563f682464427c5.bindPopup(popup_637a25d09c7aa4b6519bcba7bfda515b)
+        ;
+
+        
+    
+    
+            var marker_b4a1a3e416e18fd1019dabe736e73938 = L.marker(
+                [25.011094694497, 121.454455024309],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_1595c9a2f107fb15f197e00fe4753dfb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_581c1eb8f96d8196d7ba727ea931620e = $(`<div id="html_581c1eb8f96d8196d7ba727ea931620e" style="width: 100.0%; height: 100.0%;">     <h1>林本源園邸(林家花園)</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           The Lin Family Mansion and Garden, New Taipei City<br>           新北市, 新北市板橋區西門街9號       </div>       <div class="ts-content">         關鍵詞：林家 花園 建築 文化 園邸 遊戲 日本 活動 歷史 慈惠宮<br>         <div class="ts-box">         	168527.0人次到訪         </div>         <div class="ts-box">         	0.367(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_1595c9a2f107fb15f197e00fe4753dfb.setContent(html_581c1eb8f96d8196d7ba727ea931620e);
+            
+        
+
+        marker_b4a1a3e416e18fd1019dabe736e73938.bindPopup(popup_1595c9a2f107fb15f197e00fe4753dfb)
+        ;
+
+        
+    
+    
+            var marker_c24a4abbcbb44b5083e8f45acc9f9483 = L.marker(
+                [24.934527182455, 121.369351801169],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_438a872b29d55172e658aca8abac0980 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0e78f26bed64059cebe1f939d8662061 = $(`<div id="html_0e78f26bed64059cebe1f939d8662061" style="width: 100.0%; height: 100.0%;">     <h1>三峽歷史文物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Sansia Historical Relic Hall, New Taipei City<br>           新北市, 新北市三峽區中山路18號       </div>       <div class="ts-content">         關鍵詞：公園 日本 美食 廟 宮 重生 文物 活動 下雨 板根<br>         <div class="ts-box">         	56212.0人次到訪         </div>         <div class="ts-box">         	0.472(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_438a872b29d55172e658aca8abac0980.setContent(html_0e78f26bed64059cebe1f939d8662061);
+            
+        
+
+        marker_c24a4abbcbb44b5083e8f45acc9f9483.bindPopup(popup_438a872b29d55172e658aca8abac0980)
+        ;
+
+        
+    
+    
+            var marker_cb7e9c061dc89b6e235a472a2aa265ff = L.marker(
+                [25.137115309544, 121.505809101046],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_f29715a909115b1526117a362c8a9711 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3732d3f706ce1d6dcd43d101c9189fbf = $(`<div id="html_3732d3f706ce1d6dcd43d101c9189fbf" style="width: 100.0%; height: 100.0%;">     <h1>凱達格蘭文化館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Ketagalan Culture Center, Taipei City<br>           臺北市, 台北市北投區中山路3-1號       </div>       <div class="ts-content">         關鍵詞：鐵道 免費 歷史 展示 活動 公視 優惠 台語 文物 火車<br>         <div class="ts-box">         	294823.0人次到訪         </div>         <div class="ts-box">         	0.447(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_f29715a909115b1526117a362c8a9711.setContent(html_3732d3f706ce1d6dcd43d101c9189fbf);
+            
+        
+
+        marker_cb7e9c061dc89b6e235a472a2aa265ff.bindPopup(popup_f29715a909115b1526117a362c8a9711)
+        ;
+
+        
+    
+    
+            var marker_abf4851168ea6481b4525531cff9a5a0 = L.marker(
+                [25.043285309823, 121.515036402976],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_91681003d1958f33be2f3c4c268d6ee4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_da8ae9f654d92893af4c2e3a45e800c7 = $(`<div id="html_da8ae9f654d92893af4c2e3a45e800c7" style="width: 100.0%; height: 100.0%;">     <h1>國立臺灣博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           National Taiwan Museum, Taipei City<br>           臺北市, 台北市中正區襄陽路2號       </div>       <div class="ts-content">         關鍵詞：導演 演員 文化 劇場 演藝廳 編劇 藝術 溫泉 劇院 表演 <br>         <div class="ts-box">         	905098.0人次到訪         </div>         <div class="ts-box">         	0.443(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_91681003d1958f33be2f3c4c268d6ee4.setContent(html_da8ae9f654d92893af4c2e3a45e800c7);
+            
+        
+
+        marker_abf4851168ea6481b4525531cff9a5a0.bindPopup(popup_91681003d1958f33be2f3c4c268d6ee4)
+        ;
+
+        
+    
+    
+            var marker_21f0666ac77c3b95e76229c5582503d6 = L.marker(
+                [22.991071996741, 120.205034036285],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_6cd193f7d714a0d3b970d2a783ee5d71 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7bcf5be16f7d4b1c57ab3f364a9f093b = $(`<div id="html_7bcf5be16f7d4b1c57ab3f364a9f093b" style="width: 100.0%; height: 100.0%;">     <h1>臺南市美術館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Tainan Art Museum, Tainan City<br>           臺南市, 台南市中西區南門路37號1室       </div>       <div class="ts-content">         關鍵詞：活動 設計 歷史 警察署 棒球 中西 免費 球場 遊行 規劃<br>         <div class="ts-box">         	459705.0人次到訪         </div>         <div class="ts-box">         	0.41(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_6cd193f7d714a0d3b970d2a783ee5d71.setContent(html_7bcf5be16f7d4b1c57ab3f364a9f093b);
+            
+        
+
+        marker_21f0666ac77c3b95e76229c5582503d6.bindPopup(popup_6cd193f7d714a0d3b970d2a783ee5d71)
+        ;
+
+        
+    
+    
+            var marker_abbbc3d32fa18a18893b82cc8d9ad90c = L.marker(
+                [23.1033902, 120.3525619],
+                {}
+            ).addTo(feature_group_6af25442c94bae3ae8cacda6ae36ef43);
+        
+    
+        var popup_c19e5f905c8b8d2142347961d913de1b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_07b051d4e0a807bd2e6b64a63efd93cb = $(`<div id="html_07b051d4e0a807bd2e6b64a63efd93cb" style="width: 100.0%; height: 100.0%;">     <h1>台南山上花園水道博物館</h1>     <div class="ts-box">       <div class="ts-content is-dense has-dark">           Tainan SHAN –SHANG Garden And Old Waterworks Museum, Tainan City<br>           臺南市, 台南市山上區山上里山上16號       </div>       <div class="ts-content">         關鍵詞：水道 花園 水池 唧筒 活動 寵物 左鎮 快濾筒 歷史 化石<br>         <div class="ts-box">         	264082.0人次到訪         </div>         <div class="ts-box">         	0.375(情緒指標)         </div>       </div> 	</div>     </div>`)[0];
+                popup_c19e5f905c8b8d2142347961d913de1b.setContent(html_07b051d4e0a807bd2e6b64a63efd93cb);
+            
+        
+
+        marker_abbbc3d32fa18a18893b82cc8d9ad90c.bindPopup(popup_c19e5f905c8b8d2142347961d913de1b)
+        ;
+
+        
+    
+    
+            feature_group_6af25442c94bae3ae8cacda6ae36ef43.addTo(map_b5758e7ff13933eda32b11960c300e3e);
+        
+    
+            var heat_map_4b01b915de73e70558a17dad48beafd8 = L.heatLayer(
+                [[22.046234995148, 120.70246595922, 978032.0], [24.457395013635, 120.758189019169, 603968.0], [22.667657981006, 120.566162970181, 713713.0], [25.099962984724, 121.548568961, 1552190.0], [25.072279989287, 121.524738036806, 603499.0], [25.031244202997, 121.51123831119, 1405512.0], [25.095985981215, 121.515978025978, 2467537.0], [25.095783390615, 121.518346165083, 1098409.0], [25.039513998218, 121.560257022064, 8598830.0], [25.036635987943, 121.517716013602, 3202377.0], [25.037524008675, 121.563783959282, 233700.0], [24.9361756, 121.7116927, 241654.0], [24.94932819854, 121.352214413393, 4629192.0], [25.157036997917, 121.405003974868, 580723.0], [25.108223015027, 121.856152034298, 984554.0], [24.94170930001, 121.359823421277, 602453.0], [25.140197586799, 121.798851835448, 2726173.0], [25.1326219808, 121.740169963678, 21137.0], [24.4127987, 120.7702219, 60320.0], [24.155801480709, 120.666160080892, 2738348.0], [24.140208482703, 120.662980270486, 567258.0], [23.058019011774, 120.235147029271, 579619.0], [22.639801019169, 120.323422970401, 2026078.0], [22.654986283964, 120.286741508077, 1853119.0], [22.626772985154, 120.286839986354, 338983.0], [22.759086020644, 121.091572009535, 162058.0], [22.792262012508, 121.116020009441, 311385.0], [24.425521388264, 118.318003632199, 252358.0], [23.469224372977, 120.295743688775, 954296.0], [25.050624690309, 121.518593323692, 216847.0], [25.250128, 121.612194, 60405.0], [22.934472608815, 120.22647041838, 663837.0], [25.136690514691, 121.507125814216, 368584.0], [25.011094694497, 121.454455024309, 168527.0], [24.934527182455, 121.369351801169, 56212.0], [25.137115309544, 121.505809101046, 294823.0], [25.043285309823, 121.515036402976, 905098.0], [22.991071996741, 120.205034036285, 459705.0], [23.1033902, 120.3525619, 264082.0]],
+                {"blur": 20, "maxZoom": 30, "minOpacity": 0.5, "radius": 40}
+            );
+        
+    
+            heat_map_4b01b915de73e70558a17dad48beafd8.addTo(map_b5758e7ff13933eda32b11960c300e3e);
+        
+    
+            var layer_control_ea40cd86c3c1d475e276988fb42eb9cd_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_b9d6d77bc790a25248cec9dfa8742a89,
+                },
+                overlays :  {
+                    "\u535a\u7269\u9928\u9ede\u4f4d" : feature_group_6af25442c94bae3ae8cacda6ae36ef43,
+                    "macro_element_4b01b915de73e70558a17dad48beafd8" : heat_map_4b01b915de73e70558a17dad48beafd8,
+                },
+            };
+            let layer_control_ea40cd86c3c1d475e276988fb42eb9cd = L.control.layers(
+                layer_control_ea40cd86c3c1d475e276988fb42eb9cd_layers.base_layers,
+                layer_control_ea40cd86c3c1d475e276988fb42eb9cd_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_b5758e7ff13933eda32b11960c300e3e);
+
+        
+</script>
+</html>
