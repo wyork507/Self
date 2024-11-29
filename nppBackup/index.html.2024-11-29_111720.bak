@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The contact infomation of wyork507.">
+    <meta name="keywords" content="wyork507, Yu Hao Wang, York Wang, 王祐顥">
+    <meta property="og:title" content="York Wang">
+    <meta property="og:description" content="York's personal website.">
+    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/a/ACg8ocJouk8r24_18jTqV1Xc_aveCipu_6OKvE60K0grxksB=s576-c-no">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <title>York Wang | About Me</title>
+    <style>
+    h1.s1 {
+        margin: 0px;
+        padding: 2px;
+        font-weight: bold;
+    }
+
+    h4.s1 {
+        margin: 0px;
+        padding: 2px;
+        font-weight: normal;
+    }
+
+    p.s1 {
+        margin: 0px;
+        padding: 2px;
+        font-weight: normal;
+    }
+
+    div.s1 {
+        margin: 0px;
+        padding-left: 4px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 10px;
+    }
+
+    div.s2 {
+        margin: 0px;
+        padding-left: 4px;
+        padding-right: 2px;
+        padding-top: 0px;
+        padding-bottom: 2px;
+    }
+
+    div.s3 {
+        margin: 0px;
+        padding: 2px;
+    }
+
+    ul.s1 {
+        margin: 0px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    </style>
+</head>
+
+<body style="padding: 1%;">
+    <div style="width: 98%; min-width: 280px;">
+        <div style="float: left; width: fit-content;">
+            <h1 class="s1">
+                York Wang
+            </h1>
+            <div class="s2">
+                <b>Yu-Hao, Wang</b>
+                <span style="border: 1px dashed;">wyork507</span>
+            </div>
+            <hr style="border: 1px rounded #bbb; margin: 2px;">
+            <div class="s2">
+                <blockquote>
+                    From Toucheng, Yilan<br>
+                    Students, Dept. of Earth Science, <br>
+                    Nat'l Taiwan Normal Uni. (NTNU)
+                </blockquote>
+            </div>
+        </div>
+        <div style="float: left; min-width: 40px; max-width: 120px;">
+            <img src="src/personalPhoto.jpg" style="max-width: 100%;" />
+        </div>
+    </div>
+    <div style="clear: both; min-width: 180px;">
+        <div style="float: left; min-width: 280px">
+            <b>Education Experience</b>
+            <table style="border: 1px solid;">
+                <thead>
+                    <th>School</th>
+                    <th>Abbr</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>National Taiwan Normal University</td>
+                        <td>NTNU</td>
+                    </tr>
+                    <tr>
+                        <td>Chia-Chi Senior High School</td>
+                        <td>CCSH</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="float: left; max-width: 400px;">
+            <b>Introduction</b>
+            <p style="margin: 0px; padding: 2px;">
+                I'm a lazy person, always do thing close to deadline; sometime stupid.
+            </p>
+            <p style="margin: 0px; padding: 2px;">
+                And, I'm interested in train, bus, and most of transportation, especially the duration of taking it, that's my most fond of. Also, I like to watch japanese animation, otherwise, coding is also important for my life.
+            </p>
+        </div>
+        <div style="clear: both;">
+            <div style="float: left;">
+                <b>Club</b>
+                <ul class="s1">
+                    <li>台大火車社
+                </ul>
+                <b>Studying</b>
+                <ul class="s1">
+                    <li>Photography (2023~)
+                    <li>Coding</li>
+                    <ul>
+                        <li>Language</li>
+                        <ul>
+                            <li>Java (2015~)
+                            <li>Python (2018~)
+                            <li>Swift (2024~)
+                        </ul>
+                        <li>Direction</li>
+                        <ul>
+                            <li>Phone App Dev (2024~)
+                            <li>Website Build (2024~)
+                        </ul>
+                    </ul>
+                </ul>
+                <b>Social Media</b>
+                <ul class="s1">
+                    <li><a href="https://fb.me/wyork507">Facebook</a></li>
+                    <li><a href="https://ig.me/wyork507">Instagram</a></li>
+                    <li><a href="https://github.com/wyork507">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <iframe src="https://stagetimer.io/r/DEMO0001/" width="100%" height="5%" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; screen-wake-lock"></iframe>
+        <div style="font-size: small; clear: both;">
+            <hr style="border: 1px rounded #bbb; margin: 2px;">
+            Last Update: <site>2024/11/21</site><br>
+            E-mail: <a href="mailto: wyork507@gmail.com">wyork507@gmail.com</a>
+        </div>
+    </div>
+</body>
+
+</html>
